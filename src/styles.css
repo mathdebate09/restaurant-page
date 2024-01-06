@@ -1,0 +1,31 @@
+/* FONT FACES */
+@font-face {
+    font-family: Logo-font;
+    src: url("./fonts/Quesha-gndR.ttf");
+}
+
+@font-face {
+    font-family: LF-Normal;
+    src: url("./fonts/LibreFranklin-Medium.ttf");
+}
+
+@font-face {
+    font-family: LF-Bold;
+    src: url("./fonts/LibreFranklin-Bold.ttf");
+}
+
+.pizza img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pizza {
+    width: 100px;
+    height: auto;
+}
+
+#content {
+    width :200px;
+    height:200px;
+}

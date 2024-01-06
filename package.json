@@ -1,23 +1,30 @@
 {
-  "name": "package.json",
+  "name": "restaurant-page",
   "version": "1.0.0",
-  "description": "none",
+  "description": "An info page for a restaurant",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathdebate09/restaurant-page.git"
+    "url": "https://github.com/mathdebate09/restaurant-page.git"
   },
   "author": "learn.jayssingh@gmail.com",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/mathdebate09/restaurant-page/issues"
   },
   "homepage": "https://github.com/mathdebate09/restaurant-page#readme",
   "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.3",
     "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }

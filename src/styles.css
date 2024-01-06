@@ -1,6 +1,11 @@
 /* FONT FACES */
 @font-face {
-    font-family: Logo-font;
+    font-family: Logo-Font-up;
+    src: url("./fonts/Aileron-Light.otf");
+}
+
+@font-face {
+    font-family: Logo-font-low;
     src: url("./fonts/Quesha-gndR.ttf");
 }
 
@@ -14,18 +19,25 @@
     src: url("./fonts/LibreFranklin-Bold.ttf");
 }
 
-.pizza img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+@font-face {
+    font-family: Button-Font;
+    src: url("./fonts/Aileron-Light.otf");
 }
 
-.pizza {
-    width: 100px;
-    height: auto;
+/* ROOT */
+:root {
+    --offwhite-y: #FCFBF3;
+    --offwhite-w: #E7E7E7;
+    --yellow: #DBC75E;
+    --black: #161616;
+    --logo: #F0E7BA;
+    --normal: 'LF-Normal', sans-serif;
+    --bold: 'LF-Bold', sans-serif;
+    --button: 'Buttoni-Font', sans-serif;
 }
 
-#content {
-    width :200px;
-    height:200px;
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
 }

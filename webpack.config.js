@@ -5,6 +5,9 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
+    skeleton: './src/modules/skeleton.js',
+    display: './src/modules/display.js',
+    accessibility: './src/modules/accessibility.js'
   },
   devtool: 'inline-source-map',
   devServer: {
